@@ -10,7 +10,7 @@ The following demonstrates the possible scenarios of how to use the an instance 
 **With comman (default)**
 ```Java
 Converter converter = new Converter();
-Converter.Word word = converter.numberToWord("12345678921.63"); Converter.WordFormat.TITLE_CASE (Default)
+Converter.Word word = converter.numberToWord("12345678921.63"); // Converter.WordFormat.TITLE_CASE (Default)
 
 word.getCharacteristicsInWords();
 Result:
