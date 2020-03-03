@@ -7,7 +7,7 @@ Java implementation to convert a number or figure to word(s)
 The following demonstrates the possible scenarios of how to use the an instance of Converter 
 ```
 
-**With comman (default)**
+**With comma (default)**
 ```Java
 Converter converter = new Converter();
 Converter.Word word = converter.numberToWord("12345678921.63"); // Converter.WordFormat.TITLE_CASE (Default)
@@ -21,7 +21,7 @@ Result:
 // Sixty-three
 ```
 
-**Without comman**
+**Without comma**
 ```Java
 Converter converter = new Converter(false);
 Converter.Word word = converter.numberToWord("12345678921.63", Converter.WordFormat.TITLE_CASE);
