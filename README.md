@@ -10,7 +10,7 @@ The following demonstrates the possible scenarios of how to use the an instance 
 **With comman (default)**
 ```Java
 Converter converter = new Converter();
-Converter.Word word = converter.numberToWord("12345678921.63", Converter.WordFormat.TITLE_CASE);
+Converter.Word word = converter.numberToWord("12345678921.63"); Converter.WordFormat.TITLE_CASE (Default)
 
 word.getCharacteristicsInWords();
 Result:
@@ -42,7 +42,7 @@ Converter.Word word = converter.numberToWord("1234567.90", Converter.WordFormat.
 
 word.getCharacteristicsInWords();
 Result:
-// One Million, two Hundred and Thirty-four Thousand, five Hundred and Sixty-seven
+// One million, two hundred and thirty-four thousand, five hundred and sixty-seven
 
 word.word2.getMantissaInWords()
 Result: 
