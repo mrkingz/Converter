@@ -24,9 +24,9 @@ public final class NumberToWordConverter {
   };
 
   /**
-   * Number to array of int int [ ].
+   * A convinent method to convert the given number to array of integers.
    *
-   * @param number the number
+   * @param number - the number
    * @return the int [ ]
    */
   private int[] numberToArrayOfInt(String number) {
@@ -36,11 +36,11 @@ public final class NumberToWordConverter {
   }
 
   /**
-   * Convert string [ ].
+   * Convert a number to word.
    *
-   * @param number          the number
-   * @param isCommaInserted the is comma inserted
-   * @return the string [ ]
+   * @param number - the number
+   * @param isCommaInserted - the is comma inserted
+   * @return an array containing the decimal and fractional path of the number
    */
   public String[] convert(String number, boolean isCommaInserted) {
 
@@ -70,8 +70,8 @@ public final class NumberToWordConverter {
   /**
    * Gets characteristics in words.
    *
-   * @param characteristics the characteristics
-   * @param isCommaInserted the is comma inserted
+   * @param characteristics - the characteristics
+   * @param isCommaInserted - the is comma inserted
    * @return the characteristics in words
    */
   private String convertCharacteristicsToWords(String characteristics, boolean isCommaInserted) {
@@ -122,7 +122,7 @@ public final class NumberToWordConverter {
   /**
    * Converts the mantissa or fractional part of the number, if any, to words.
    *
-   * @param mantissa the mantissa
+   * @param mantissa - the mantissa
    * @return the mantissa in words
    */
   private String convertMantissaTowords(String mantissa) {
