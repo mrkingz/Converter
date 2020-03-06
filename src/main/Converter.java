@@ -30,7 +30,7 @@ public final class Converter {
   /**
    * Instantiates a new Converter.
    *
-   * @param commaInserted boolean flag to indicate if comma should be inserted between words
+   * @param commaInserted - boolean flag to indicate if comma should be inserted between words
    */
   public Converter(boolean commaInserted) {
     this.setCommaInserted(commaInserted);
@@ -48,7 +48,7 @@ public final class Converter {
   /**
    * Sets the boolean flag that indicates if comma inserted between words.
    *
-   * @param commaInserted the comma inserted
+   * @param commaInserted - the comma inserted
    */
   public void setCommaInserted(boolean commaInserted) {
     this.commaInserted = commaInserted;
@@ -57,8 +57,8 @@ public final class Converter {
   /**
    * A convenient method to format word(s) according the specified WordFormat.
    *
-   * @param word   the word
-   * @param format the format
+   * @param word -  the word
+   * @param format - the format
    * @return the string
    */
   private String formatWord(String word, WordFormat format) {
@@ -80,7 +80,7 @@ public final class Converter {
   /**
    * Convert a number to words.
    *
-   * @param number the number to convert
+   * @param number - the number to convert
    * @return the result of the conversion in word(s)
    */
   public Word numberToWord(double number) {
@@ -90,8 +90,8 @@ public final class Converter {
   /**
    * Convert a number to words.
    *
-   * @param number the number to convert
-   * @param format the specified case format
+   * @param number - the number to convert
+   * @param format - the specified case format
    * @return the result of the conversion in word(s)
    */
   public Word numberToWord(double number, WordFormat format) {
@@ -101,7 +101,7 @@ public final class Converter {
   /**
    * Convert a number to words.
    *
-   * @param number the number to convert
+   * @param number - the number to convert
    * @return the result of the conversion in word(s)
    */
   public Word numberToWord(String number) {
@@ -112,8 +112,8 @@ public final class Converter {
   /**
    * Convert a number to words.
    *
-   * @param number the number to convert
-   * @param format the specified case format
+   * @param number - the number to convert
+   * @param format - the specified case format
    * @return the result of the conversion in word(s)
    */
   public Word numberToWord(String number, WordFormat format) {
@@ -144,8 +144,8 @@ public final class Converter {
     /**
      * Instantiates a new Word.
      *
-     * @param characteristics the characteristics or decimal part of the conversion, if any
-     * @param mantissa        the mantissa or fractional part of the conversion, if any
+     * @param characteristics - the characteristics or decimal part of the conversion, if any
+     * @param mantissa - the mantissa or fractional part of the conversion, if any
      */
     public Word(String characteristics, String mantissa) {
       this.characteristics = characteristics;
